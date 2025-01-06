@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+    <Label text="Personnalisez votre repas" style="-fx-font-size: 16px;" />
+    <Label text="Ingrédients disponibles :" />
+    <ListView fx:id="listeIngredients" prefWidth="300" prefHeight="150" />
+    <Button text="Ajouter" fx:id="btnAjouterIngredient" />
+
+    <Label text="Suppléments disponibles :" />
+    <ListView fx:id="listeSupplements" prefWidth="300" prefHeight="150" />
+    <Button text="Ajouter" fx:id="btnAjouterSupplement" />
+
+    <Label text="Total : " />
+    <Label fx:id="lblTotal" style="-fx-font-size: 16px;" />
+
+    <Button text="Terminer" fx:id="btnTerminer" />
+</VBox>
+
